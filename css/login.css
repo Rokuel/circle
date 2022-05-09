@@ -3,35 +3,31 @@ body {
   height: 100%;
 }
 
-body {
+.form-login {
+  margin-top: 100px;
   align-items: center;
   padding-bottom: 40px;
   background-color: #fff;
 }
 
-.form-signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
-}
-
-.form-signin .checkbox {
-  font-weight: 400;
-}
-
-.form-signin .form-floating:focus-within {
+.form-login .form-floating:focus-within {
   z-index: 2;
 }
 
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+.form-login > form > h1{
+  font-family: 'Jua', sans-serif;
+  padding-bottom: 30px;
+  padding: 0 0 20px;
+  border-bottom: 2px solid #0d6efd;
+  text-align: center;
+  line-height: 1;
+  font-size: 33px;
+  color: black;
 }
 
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.form-login input{
+  margin-bottom: 20px;
+  border-radius: 0;
 }
+
+
