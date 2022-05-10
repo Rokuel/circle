@@ -25,6 +25,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  margin: auto;
 }
 .carousel-item > img {
   position: absolute;

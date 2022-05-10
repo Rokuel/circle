@@ -3,12 +3,7 @@ body {
   height: 100%;
 }
 
-.form-login {
-  margin-top: 100px;
-  align-items: center;
-  padding-bottom: 40px;
-  background-color: #fff;
-}
+
 
 .form-login .form-floating:focus-within {
   z-index: 2;
@@ -24,6 +19,7 @@ body {
   font-size: 33px;
   color: black;
 }
+
 
 .form-login input{
   margin-bottom: 20px;
